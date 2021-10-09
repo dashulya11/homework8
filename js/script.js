@@ -6,7 +6,7 @@ switch (year) {
         alert(year);
         break;
     default: 
-        if (year) {
+        // if (year) {
             age = 2021 - year;
             let town = prompt('Введите свой город:');
             switch (town) {
@@ -46,5 +46,5 @@ switch (year) {
                 }
             alert('Твой возраст'+ age + '\n'+ town + '\n'+ hobby);
             
-        }
+        // }
 }
