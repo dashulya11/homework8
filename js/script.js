@@ -44,7 +44,7 @@ switch (year) {
                     default:
                         hobby = 'Любимый вид спорта' + ' ' + hobby;
                 }
-            alert('Тебе '+ age + ' лет' + '\n'+ town + '\n'+ hobby);
+            alert('Твой возраст'+ age + '\n'+ town + '\n'+ hobby);
             
         }
 }
